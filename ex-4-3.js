@@ -8,7 +8,7 @@
 const readlineSync = require("readline-sync");
 
 function rand10(){
-    let randomValue = Math.floor(Math.random()*10);
+    let randomValue = 1 + Math.floor(Math.random()*10);
     return randomValue;
 }
 
