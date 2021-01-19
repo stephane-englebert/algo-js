@@ -6,7 +6,7 @@
 // The function rand10 returns an integer between 1 and 10
 // This random number is obtained thanks to the Math API function Math.random()
 function rand10(){
-    let randomValue = Math.floor(Math.random()*10);
+    let randomValue = 1 + Math.floor(Math.random()*10);
     return randomValue;
 }
 
