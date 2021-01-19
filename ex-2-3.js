@@ -5,8 +5,6 @@
 //      The first one should use while and make a loop that will execute 100 times. 
 //      The second one should use for and make a loop that will execute 50 times.
 
-const readlineSync = require("readline-sync");
-
 // First version ("While" + exec 100 times)
     let i = 2;   
     while(i<100){
