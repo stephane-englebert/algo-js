@@ -16,7 +16,7 @@ function askTvSerie(){
     let tv_serie_obj = {
         name:"",
         prod_year:"",
-        cast_members:["Catherine","Stéphane"]
+        cast_members:[]
     };
     let finished = false;
     let arrayCastMembers = [];
